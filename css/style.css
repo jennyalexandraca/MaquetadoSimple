@@ -1,0 +1,116 @@
+*{box-sizing: border-box;
+    padding: 0%;
+    margin:0%
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    Width: 100%;
+    Height: 100px;
+    padding: 15px;
+    background-color: #222222;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.ordenNav > a {
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 400px;
+    background-color:#E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    width: 490px;
+    height: 350px; 
+    border-radius: 5px;
+    position: relative;
+}
+
+.primera_caja {
+    font-weight: 700;
+    font-size: 24px;
+    color:#FC200C;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.segunda_caja {
+    background-color: #FFFFFF;
+}
+
+.posicionTitulos { /*Título completo primera caja*/
+    position:absolute;
+    font-weight: 700;
+    font-size: 24px;
+    top: 20px;
+    left: 45px;
+}
+
+#estiloTitulo { /*Título blanco primera caja*/
+    color:white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.caja2 {
+    background-image: white;
+}
+
+#estiloTitulo2 { /*Título "Podio de pizzas" segunda caja*/
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700px;
+    position: absolute;
+    top: 26px;
+    left: 160px;
+}
+
+#pizzasTop5 { /*Subtítulo segunda caja*/
+    position: absolute;
+    top: 112px;
+    left: 69px;
+}
+
+#estilolista { /*Listado segunda caja*/
+    color:black;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    justify-content: space-between;
+    top: 150px;
+    left: 69px;
+}
+
+#arbolIngredientes { /*Estilo de la imagen segunda caja*/
+    width: 92px;
+    height: 129px;
+    position: absolute;
+    top: 132px;
+    left: 325px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    background-color: #222222;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
